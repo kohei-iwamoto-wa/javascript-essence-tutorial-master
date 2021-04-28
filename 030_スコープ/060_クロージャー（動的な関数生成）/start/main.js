@@ -7,5 +7,5 @@ function addNumberFactory(num) {
 }
 
 const add5 = addNumberFactory(5);
-const result = add5(10);
+const result = add5(10); //addNumberが返却されている
 console.log(result);
