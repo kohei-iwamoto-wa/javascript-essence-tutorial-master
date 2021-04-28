@@ -6,6 +6,7 @@ function fn1() {
         console.log(a);
 
         if (true) {
+            // varで宣言した場合ブロック関係なくなる
             var a = 3;
         }
 
