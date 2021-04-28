@@ -6,7 +6,7 @@ let a = 0;
 var b = 0;
 function c() {}
 
-//debuggerを使用すると
+//debuggerを使用すると処理が止まる（ブラウザを開いた状態）
 // debugger;
 
 // 関数スコープ
