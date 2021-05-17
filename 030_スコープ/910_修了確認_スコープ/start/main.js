@@ -7,8 +7,9 @@
  * ※if文は削除してはいけません。
  */
 function fn() {
+    let a;
     if(true) {
-        let a = 'fn called';
+        a = 'fn called';
     }
     return a; // ReferenceError: a is not defined
 }
