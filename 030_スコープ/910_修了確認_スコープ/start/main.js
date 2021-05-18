@@ -27,7 +27,7 @@ function fn2() {
     console.log(val); // 期待値->'val1'
 
     if(true) {
-        var val = 'val2';
+        let val = 'val2';
         console.log(val); // 期待値->'val2'
     }
 
@@ -47,3 +47,24 @@ fn2();
  * increment(); // 期待値->4
  */
 
+// function increment() {
+//     let val = 0;
+//     function incrementFactory() {
+//        val = val + 1;
+//        return val;
+//     } 
+//     return console.log(val);
+// }
+
+{
+    let num = 0;
+    function increment() {
+        num = num + 1;
+        console.log(num);
+    }
+}
+
+increment();
+increment();
+increment();
+increment();
